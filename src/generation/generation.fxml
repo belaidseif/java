@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="267.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="generation.GenerationController">
+   <children>
+      <Label fx:id="lbl1" alignment="CENTER" layoutX="34.0" layoutY="22.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" alignment="CENTER" layoutX="34.0" layoutY="50.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3" alignment="CENTER" layoutX="34.0" layoutY="80.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl4" alignment="CENTER" layoutX="34.0" layoutY="113.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl5" alignment="CENTER" layoutX="34.0" layoutY="139.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl6" alignment="CENTER" layoutX="34.0" layoutY="172.0" prefHeight="21.0" prefWidth="396.0" textFill="#e40e0e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="179.0" layoutY="207.0" mnemonicParsing="false" onAction="#setOKButton" prefHeight="37.0" prefWidth="107.0" style="-fx-background-color: #2c863f;" text="OK" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="labelGeneral" alignment="CENTER" layoutX="25.0" layoutY="32.0" prefHeight="117.0" prefWidth="413.0" textFill="#15c912">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

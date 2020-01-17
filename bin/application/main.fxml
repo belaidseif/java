@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #eee;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="400.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="90.0" layoutY="188.0" mnemonicParsing="false" onAction="#gererDep" prefHeight="30.0" style="-fx-background-color: #09B28C;" text="Gérer les départements" textFill="WHITE" AnchorPane.bottomAnchor="148.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="90.0" layoutY="231.0" mnemonicParsing="false" onAction="#gererEns" prefHeight="30.0" style="-fx-background-color: #09B28C;" text="Gérer les enseignants" textFill="WHITE" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="90.0" layoutY="277.0" mnemonicParsing="false" onAction="#gererClasse" prefHeight="30.0" style="-fx-background-color: #09B28C;" text="Gérer les classes" textFill="WHITE" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="90.0" layoutY="322.0" mnemonicParsing="false" onAction="#generer" prefHeight="39.0" prefWidth="220.0" style="-fx-background-color: #FF3F3C;" text="Générer les emploi" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="91.0" layoutY="142.0" mnemonicParsing="false" onAction="#gererMat" prefHeight="39.0" prefWidth="218.0" style="-fx-background-color: #09B28C;" text="Gérer les matière" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Text fill="WHITE" layoutX="26.0" layoutY="98.0" stroke="#5429b9" strokeDashOffset="5.0" strokeLineJoin="ROUND" strokeMiterLimit="2.0" strokeType="OUTSIDE" strokeWidth="5.0" text="Time Table Generator" textAlignment="CENTER" wrappingWidth="347.13671875">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
